@@ -119,9 +119,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="registWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="registWindow.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
